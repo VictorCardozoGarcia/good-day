@@ -1,0 +1,11 @@
+.main {
+  padding: 0 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message {
+  font-size: 80px;
+  text-align: center;
+}

@@ -1,0 +1,53 @@
+/* Estilização para o componente de bem-estar, substituindo o .cardContador */
+.bemEstarEstudantil {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bemEstarEstudantil h2,
+.bemEstarEstudantil h3 {
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.bemEstarEstudantil input,
+.bemEstarEstudantil textarea,
+.bemEstarEstudantil button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.bemEstarEstudantil button {
+  background-color: #4caf50; /* Verde */
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.bemEstarEstudantil button:hover {
+  background-color: #45a049;
+}
+
+.bemEstarEstudantil textarea {
+  resize: vertical;
+}
+
+/* Estilização específica para listas de dicas e posts no fórum */
+.bemEstarEstudantil ul {
+  list-style: inside;
+}
+
+.bemEstarEstudantil p {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 10px;
+}

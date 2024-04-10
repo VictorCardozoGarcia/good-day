@@ -1,0 +1,58 @@
+/* components/Calendar.module.css */
+.calendar {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.calendar > h1 {
+  width: fit-content;
+  padding: 10px 16px;
+  margin: 50px auto;
+  background-color: var(--white);
+  border-radius: 12px;
+}
+
+.calendar > h1::first-letter {
+  text-transform: capitalize;
+}
+
+.weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  font-weight: bold;
+}
+
+.weekday {
+  padding: 10px;
+  text-align: center;
+}
+
+.month {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.monthDay,
+.prevMonthDay,
+.nextMonthDay {
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.monthDay {
+  background-color: var(--gray);
+}
+
+.prevMonthDay,
+.nextMonthDay {
+  background-color: var(--dark-gray);
+}
+
+.today {
+  text-decoration: none;
+  color: black;
+  background-color: var(--white);
+}
