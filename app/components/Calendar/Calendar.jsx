@@ -1,6 +1,6 @@
 import styles from "./Calendar.module.css";
 
-import { getDaysInCalendar } from "@/utils/getDaysInCalendar.js";
+import { getDaysInCalendar } from "@/app/utils/getDaysInCalendar.js";
 import Link from "next/link";
 
 export default function Calendar() {
