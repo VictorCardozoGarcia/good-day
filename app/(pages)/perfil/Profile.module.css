@@ -1,0 +1,58 @@
+.profileContainer {
+    position: relative;
+    background-color: #E0F2F1; /* Cor de fundo da imagem */
+    min-height: 100vh; /* Altura mínima para preencher a tela */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  .backButton {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .arrow {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .avatarContainer {
+    margin-top: 20px;
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ccc; /* Cor de fundo se a imagem não carregar */
+  }
+  
+  .name {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333; /* Cor do texto para o nome */
+  }
+  
+  .statsContainer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .statsIcon {
+    width: 80px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+  }
+  
+  .statsText {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333; /* Cor do texto para 'Estatísticas' */
+  }
+  
